@@ -1,0 +1,79 @@
+[
+  {
+    "ContainingType": "WebApplication1.Controllers.FormularioController",
+    "Method": "CrearFormulario",
+    "RelativePath": "api/Formulario",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "formularioDto",
+        "Type": "WebApplication1.Modelos.Dtos.FormularioDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 201
+      },
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 400
+      },
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 401
+      },
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 500
+      }
+    ]
+  },
+  {
+    "ContainingType": "WebApplication1.Controllers.FormularioController",
+    "Method": "GetFormularios",
+    "RelativePath": "api/Formulario",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebApplication1.Controllers.FormularioController",
+    "Method": "ActualizarFormulario",
+    "RelativePath": "api/Formulario/{formularioId}",
+    "HttpMethod": "PATCH",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "formularioId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "formularioDto",
+        "Type": "WebApplication1.Modelos.Dtos.FormularioDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [],
+    "EndpointName": "Actualizarformulario"
+  }
+]

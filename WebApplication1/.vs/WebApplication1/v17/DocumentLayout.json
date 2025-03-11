@@ -1,0 +1,109 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\repositorios\\ejercicio-formulario\\WebApplication1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{2BFF28C2-C821-477C-A50D-B3B23FC1751D}|WebApplication1.csproj|d:\\repositorios\\ejercicio-formulario\\webapplication1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2BFF28C2-C821-477C-A50D-B3B23FC1751D}|WebApplication1.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2BFF28C2-C821-477C-A50D-B3B23FC1751D}|WebApplication1.csproj|d:\\repositorios\\ejercicio-formulario\\webapplication1\\controllers\\formulariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2BFF28C2-C821-477C-A50D-B3B23FC1751D}|WebApplication1.csproj|solutionrelative:controllers\\formulariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2BFF28C2-C821-477C-A50D-B3B23FC1751D}|WebApplication1.csproj|d:\\repositorios\\ejercicio-formulario\\webapplication1\\modelos\\dtos\\formulariodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2BFF28C2-C821-477C-A50D-B3B23FC1751D}|WebApplication1.csproj|solutionrelative:modelos\\dtos\\formulariodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2BFF28C2-C821-477C-A50D-B3B23FC1751D}|WebApplication1.csproj|d:\\repositorios\\ejercicio-formulario\\webapplication1\\repositorio\\formulariorepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2BFF28C2-C821-477C-A50D-B3B23FC1751D}|WebApplication1.csproj|solutionrelative:repositorio\\formulariorepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2BFF28C2-C821-477C-A50D-B3B23FC1751D}|WebApplication1.csproj|d:\\repositorios\\ejercicio-formulario\\webapplication1\\modelos\\formulario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2BFF28C2-C821-477C-A50D-B3B23FC1751D}|WebApplication1.csproj|solutionrelative:modelos\\formulario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\repositorios\\ejercicio-formulario\\WebApplication1\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "D:\\repositorios\\ejercicio-formulario\\WebApplication1\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAABcAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-11T04:29:48.773Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Formulario.cs",
+              "DocumentMoniker": "D:\\repositorios\\ejercicio-formulario\\WebApplication1\\Modelos\\Formulario.cs",
+              "RelativeDocumentMoniker": "Modelos\\Formulario.cs",
+              "ToolTip": "D:\\repositorios\\ejercicio-formulario\\WebApplication1\\Modelos\\Formulario.cs",
+              "RelativeToolTip": "Modelos\\Formulario.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-11T03:13:17.509Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "FormularioDto.cs",
+              "DocumentMoniker": "D:\\repositorios\\ejercicio-formulario\\WebApplication1\\Modelos\\Dtos\\FormularioDto.cs",
+              "RelativeDocumentMoniker": "Modelos\\Dtos\\FormularioDto.cs",
+              "ToolTip": "D:\\repositorios\\ejercicio-formulario\\WebApplication1\\Modelos\\Dtos\\FormularioDto.cs",
+              "RelativeToolTip": "Modelos\\Dtos\\FormularioDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAwAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-11T02:11:11.25Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "FormularioController.cs",
+              "DocumentMoniker": "D:\\repositorios\\ejercicio-formulario\\WebApplication1\\Controllers\\FormularioController.cs",
+              "RelativeDocumentMoniker": "Controllers\\FormularioController.cs",
+              "ToolTip": "D:\\repositorios\\ejercicio-formulario\\WebApplication1\\Controllers\\FormularioController.cs",
+              "RelativeToolTip": "Controllers\\FormularioController.cs",
+              "ViewState": "AgIAAEoAAAAAAAAAAAAAAF0AAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-11T01:59:49.893Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "FormularioRepositorio.cs",
+              "DocumentMoniker": "D:\\repositorios\\ejercicio-formulario\\WebApplication1\\Repositorio\\FormularioRepositorio.cs",
+              "RelativeDocumentMoniker": "Repositorio\\FormularioRepositorio.cs",
+              "ToolTip": "D:\\repositorios\\ejercicio-formulario\\WebApplication1\\Repositorio\\FormularioRepositorio.cs",
+              "RelativeToolTip": "Repositorio\\FormularioRepositorio.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAQwBAAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-11T01:49:07.988Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

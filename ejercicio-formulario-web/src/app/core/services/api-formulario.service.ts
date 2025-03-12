@@ -1,7 +1,9 @@
 import { HttpClient } from "@angular/common/http";
 import { inject, Injectable } from "@angular/core";
-import { Observable } from "rxjs";
+import { map, Observable } from "rxjs";
 import { CreacionFormulario } from "../interfaces/request/creacionFormulario";
+import { CreacionFormularioResponse } from "../interfaces/response/creacionFormularioResponse";
+import { CreacionFormularioMapper } from "../mappers/creacionFormularioMapper";
 
 
 @Injectable({providedIn: 'root'})
@@ -11,9 +13,11 @@ export default class ApiFormularioService {
 
   private baseRoute : string = 'https://localhost:7116';
 
-  obtenerListaformulario (): Observable<CreacionFormulario[]>{
+  obtenerListaformulario (): Observable<CreacionFormularioResponse[]>{
 
-    return this.http.get<CreacionFormulario[]>(`${this.baseRoute}/api/Formulario`);
+    return this.http.get<any>(`${this.baseRoute}/api/Formulario`).pipe(
+      map( resp => CreacionFormularioMapper.fromJson(resp))
+    );
   }
 
   crearFormulario(bodyRequest: CreacionFormulario) : Observable<CreacionFormulario>{
@@ -22,7 +26,7 @@ export default class ApiFormularioService {
   }
 
   actualizarFormulario(bodyRequest: CreacionFormulario) : Observable<CreacionFormulario>{
-
-    return this.http.patch<CreacionFormulario>(`${this.baseRoute}/api/Formulario/${bodyRequest.Id}`, bodyRequest);
+    debugger
+    return this.http.patch<CreacionFormulario>(`${this.baseRoute}/api/Formulario/${bodyRequest.id}`, bodyRequest);
   }
 }

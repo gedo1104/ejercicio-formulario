@@ -59,8 +59,7 @@
               "RelativeToolTip": "Modelos\\Formulario.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-11T03:13:17.509Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-11T03:13:17.509Z"
             },
             {
               "$type": "Document",
@@ -72,8 +71,7 @@
               "RelativeToolTip": "Modelos\\Dtos\\FormularioDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAqwAwAAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-11T02:11:11.25Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-11T02:11:11.25Z"
             },
             {
               "$type": "Document",
@@ -85,8 +83,7 @@
               "RelativeToolTip": "Controllers\\FormularioController.cs",
               "ViewState": "AgIAAEoAAAAAAAAAAAAAAF0AAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-11T01:59:49.893Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-11T01:59:49.893Z"
             },
             {
               "$type": "Document",
@@ -98,8 +95,7 @@
               "RelativeToolTip": "Repositorio\\FormularioRepositorio.cs",
               "ViewState": "AgIAAAkAAAAAAAAAAAAQwBAAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-11T01:49:07.988Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-11T01:49:07.988Z"
             }
           ]
         }

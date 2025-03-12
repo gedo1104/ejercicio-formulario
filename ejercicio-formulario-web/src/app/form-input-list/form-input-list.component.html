@@ -1,1 +1,33 @@
-<p>form-input-list works!</p>
+<div class="flex justify-center items-center min-h-screen p-4">
+  <div class="w-full max-w-2xl">
+    <div class="flex flex-col space-y-4">
+      <h1 class="text-center text-xl font-bold mb-6">{{tituloFormulario | uppercase }}</h1>
+
+      @for (item of listaPropiedades; track $index) {
+        @if (item.type != 'select' ) {
+          <div class="flex flex-col">
+            <label for="large-input"
+              class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">
+              {{item.label}}
+            </label>
+            <input type="text" min="0" id="IdForm" placeholder="{{item.label}}"
+              class="block w-full p-4 text-gray-900 border border-gray-300 rounded-lg bg-gray-50 text-base focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500">
+          </div>
+        }
+        @if (item.type == 'select' ) {
+          <div class="flex flex-col">
+            <label for="countries"
+              class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">
+              {{item.label}}
+            </label>
+            <select id="countries"
+              class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500">
+              <option>Input</option>
+              <option>Select</option>
+            </select>
+          </div>
+        }
+      }
+    </div>
+  </div>
+</div>

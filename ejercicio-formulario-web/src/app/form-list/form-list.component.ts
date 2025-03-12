@@ -4,6 +4,7 @@ import { CreacionFormulario } from '../core/interfaces/request/creacionFormulari
 import {toSignal } from '@angular/core/rxjs-interop';
 import { CommonModule } from '@angular/common';
 import { Router } from '@angular/router';
+import { CreacionFormularioResponse } from '../core/interfaces/response/creacionFormularioResponse';
 
 @Component({
   selector: 'app-form-list',
@@ -17,16 +18,28 @@ export class FormListComponent {
 
     private router : Router = inject(Router);
 
-    public listaFormulario: Signal<CreacionFormulario[]> = toSignal(this.apiFormularioService.obtenerListaformulario(), {
+    public listaFormulario: Signal<CreacionFormularioResponse[]> = toSignal(this.apiFormularioService.obtenerListaformulario(), {
       initialValue: []
     });
 
 
-    verFormulario(formulario: CreacionFormulario){
-      debugger
-      this.router.navigateByUrl('/editar-formulario', {state: {
-        formulario: formulario
-      }, });
+    EditarFormulario(formulario: CreacionFormularioResponse){
+
+      this.router.navigate(['/editar-formulario'], {
+        state: { formulario: formulario }
+      });
+    }
+
+    nuevoFormulario(){
+      this.router.navigate(['/editar-formulario'], {
+        state: { }
+      });
+    }
+//visualizar-formulario
+    verFormulario(formulario: CreacionFormularioResponse){
+      this.router.navigate(['/visualizar-formulario'], {
+        state: { formulario: formulario }
+      });
     }
 
 }
